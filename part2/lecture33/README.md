@@ -13,6 +13,8 @@ Nest가 실제로 조립하는 방식 그대로 시험하면서, 진짜로 부�
 | 파일 | 내용 |
 |---|---|
 | [slides.pdf](slides.pdf) | 강의 슬라이드 |
+| [subtitles.vtt](subtitles.vtt) | 자막(WebVTT) |
+| [subtitles.srt](subtitles.srt) | 자막(SRT) |
 
 ## 실습 자료
 

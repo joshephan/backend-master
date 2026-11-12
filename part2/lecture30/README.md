@@ -13,6 +13,8 @@ NestJS 앱 아래의 HTTP 서버를 Express에서 Fastify로 바꾸면 무엇이
 | 파일 | 내용 |
 |---|---|
 | [slides.pdf](slides.pdf) | 강의 슬라이드 |
+| [subtitles.vtt](subtitles.vtt) | 자막(WebVTT) |
+| [subtitles.srt](subtitles.srt) | 자막(SRT) |
 
 ## 실습 자료
 

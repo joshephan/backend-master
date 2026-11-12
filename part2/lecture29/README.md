@@ -13,6 +13,8 @@
 | 파일 | 내용 |
 |---|---|
 | [slides.pdf](slides.pdf) | 강의 슬라이드 |
+| [subtitles.vtt](subtitles.vtt) | 자막(WebVTT) |
+| [subtitles.srt](subtitles.srt) | 자막(SRT) |
 
 ## 실습 자료
 

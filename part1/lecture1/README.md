@@ -13,6 +13,10 @@
 | 파일 | 내용 |
 |---|---|
 | [slides.pdf](slides.pdf) | 강의 슬라이드 |
+| [subtitles.vtt](subtitles.vtt) | 자막(WebVTT) |
+| [subtitles.srt](subtitles.srt) | 자막(SRT) |
+| [subtitles-full.vtt](subtitles-full.vtt) | 강의 소개를 앞에 붙인 영상용 자막(VTT) |
+| [subtitles-full.srt](subtitles-full.srt) | 강의 소개를 앞에 붙인 영상용 자막(SRT) |
 
 ## 실습 자료
 
