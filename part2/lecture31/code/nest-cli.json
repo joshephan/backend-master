@@ -1,0 +1,51 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/ticketing/src",
+  "compilerOptions": {
+    "deleteOutDir": true,
+    "builder": "rspack",
+    "tsConfigPath": "apps/ticketing/tsconfig.app.json"
+  },
+  "monorepo": true,
+  "root": "apps/ticketing",
+  "projects": {
+    "common": {
+      "type": "library",
+      "root": "libs/common",
+      "entryFile": "index",
+      "sourceRoot": "libs/common/src",
+      "compilerOptions": {
+        "tsConfigPath": "libs/common/tsconfig.lib.json"
+      }
+    },
+    "notifier": {
+      "type": "application",
+      "root": "apps/notifier",
+      "entryFile": "main",
+      "sourceRoot": "apps/notifier/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/notifier/tsconfig.app.json"
+      }
+    },
+    "ticketing": {
+      "type": "application",
+      "root": "apps/ticketing",
+      "entryFile": "main",
+      "sourceRoot": "apps/ticketing/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/ticketing/tsconfig.app.json"
+      }
+    },
+    "reminders": {
+      "type": "application",
+      "root": "apps/reminders",
+      "entryFile": "reminders",
+      "sourceRoot": "apps/ticketing/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/ticketing/tsconfig.app.json",
+        "deleteOutDir": false
+      }
+    }
+  }
+}
